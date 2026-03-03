@@ -1,7 +1,7 @@
 module.exports = {
   token:
     process.env.DISCORD_TOKEN ||
-    "MTQ3ODQ5NjEyODM0ODQ1NDk0Mw.GOS4bO.9cXwmsGzZAHwIGNcIF2NCPoYu0Gbz2m_QgpIig", // your discord bot token
+    "MTQ3ODQ5NjEyODM0ODQ1NDk0Mw.GQRk8N.GIFLwiKcJZbEpn6w00zIWsXv2qVyIF2GVImwVA", // your discord bot token
   clientId: process.env.CLIENT_ID || "1478496128348454943",
   prefix: process.env.PREFIX || ",", // bot prefix
   ownerID: (process.env.OWNER_IDS || "1321883217455874082").split(","), //your discord id
