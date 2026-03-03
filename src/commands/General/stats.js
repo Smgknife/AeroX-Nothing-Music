@@ -55,7 +55,7 @@ module.exports = {
           iconURL: client.user.displayAvatarURL({ dynamic: true, size: 64 })
         })
         .setThumbnail(client.user.displayAvatarURL({ dynamic: true, size: 256 }))
-        .setDescription(`[**Support Server**](https://discord.com/invite/w77ymEU82a)`)
+        .setDescription(`[**Support Server**](https://discord.gg/sVHcgekSkS)`)
         .addFields([
           {
             name: '__Bot Statistics__',
