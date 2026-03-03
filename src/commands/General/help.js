@@ -11,13 +11,13 @@ module.exports = {
   owner: false,
   execute: async (message, args, client, prefix) => {
     if (!args[0]) {
-      const ankush = await client.users.fetch("829008198232178699");
+      const ankush = await client.users.fetch("1321883217455874082");
 
       let helpmenu = new EmbedBuilder()
         .setAuthor({ name: `${message.guild.name}`, iconURL: message.author.displayAvatarURL({ dynamic: true }) })
         .setThumbnail(client.user.displayAvatarURL({ dynamic: true }))
         .setFooter({
-          text: `Developed With ❤️ By The Ankush`,
+          text: `Developed With ❤️ By The Knifu`,
           iconURL: ankush.displayAvatarURL({ dynamic: true }),
         })
         .setDescription(`**Hey!!** <@${message.author.id}>, I am <@${client.user.id}>\n**Help Menu:**\n~ My default prefix is: ${prefix}\n~ Total Commands: \`${client.commands.size}\` |\n~ Usable By You \`96\``)
@@ -101,11 +101,11 @@ module.exports = {
         .addComponents(
           new ButtonBuilder()
             .setLabel('Invite Me')
-            .setURL('https://discord.com/oauth2/authorize?client_id=1234592539324059709&permissions=8&integration_type=0&scope=bot+applications.commands')
+            .setURL('https://discord.com/oauth2/authorize?client_id=1475754396901048471&permissions=8&integration_type=0&scope=bot+applications.commands')
             .setStyle(ButtonStyle.Link),
           new ButtonBuilder()
             .setLabel('Support Server')
-            .setURL('https://discord.com/invite/w77ymEU82a')
+            .setURL('https://discord.gg/sVHcgekSkS')
             .setStyle(ButtonStyle.Link)
         );
 
