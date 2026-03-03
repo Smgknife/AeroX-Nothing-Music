@@ -14,7 +14,7 @@ module.exports = {
   execute: async (message, args, client, prefix) => {
     try {
       // Configuration
-      const supportServerLink = client.config?.supportServer || 'https://discord.com/invite/w77ymEU82a';
+      const supportServerLink = client.config?.supportServer || 'https://discord.gg/sVHcgekSkS';
       
       // Create the main embed
       const supportEmbed = new EmbedBuilder()
